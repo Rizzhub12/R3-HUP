@@ -3,9 +3,9 @@ local Window = Library.CreateLib("RGF3 HUB", "BloodTheme")
 
 
 local Tab = Window:NewTab("السكربتات")
-Section:List("اقوى سكربتات بلوكس 👇🏻")
+Section:script("Premium")
 
 
-List:NewButton("اقوى سكربت بلوكس", "سكربت مدفوع", function()
+Script:NewButton("TheBest", "paid", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/REWzaKunGz1/premium/main/PadoHub'))()
 end)
